@@ -1,0 +1,11 @@
+571 - Perairan Selat Malaka & laut Andaman
+572 - Perairan Samudera Hindia sebelah Barat Sumatera & Selat Sunda
+573 - Perairan Samudera Hindia sebelah Selatan Jawa sampai dengan sebelah Selatan Nusa Tenggara, Laut Sawu, dan Laut Timor Bagian Barat
+711 - Perairan Selat Karimata, Laut Natuna, dan Laut Cina Selatan
+712 - Perairan Laut Jawa
+713 - Perairan Selat Makassar, Teluk Bone, Laut Flores, dan Laut Bali
+714 - Perairan Teluk Tolo dan Laut Banda
+715 - Perairan Teluk Tomini, Laut Maluku, Laut Halmahera, Laut Seram, dan Teluk Berau
+716 - Perairan Laut Sulawesi dan Sebelah Utara Pulau Halmahera
+717 - Perairan Teluk Cendrawasih dan Samudera Pasifik
+718 - Perairan Laut Aru, Laut Arafura, dan Laut Timor Bagian Timur

@@ -1,0 +1,148 @@
+Pelabuhan Batu Guluk, Madura, Jawa Timur
+Pelabuhan Cirebon, Jawa Barat
+Pelabuhan Merak, Cilegon, Banten
+Pelabuhan Kalianget, Madura, Jawa Timur
+Pelabuhan Kalimas, Surabaya, Jawa Timur
+Pelabuhan Kamal, Madura, Jawa Timur
+Pelabuhan Ketapang, Banyuwangi, Jawa Timur
+Pelabuhan Surindro Supjarso, Popoh, Tulungagung
+Pelabuhan Ujung, Surabaya, Jawa Timur
+Pelabuhan Sunda Kelapa, Jakarta
+Pelabuhan Tanjung Perak, Surabaya, Jawa Timur
+Pelabuhan Pertiwi, Pamanukan, Subang, Jawa Barat
+Pelabuhan Tanjung Priok, Jakarta
+Pelabuhan Tanjung Wangi, Banyuwangi, Jawa Timur
+Pelabuhan Tanjung Emas, Semarang, Jawa Tengah
+Pelabuhan Tanjung Intan, Cilacap, Jawa Tengah
+Pelabuhan Pramuka, Garut, Jawa Barat
+Pelabuhan Penawar Rindu, Belakang Padang, Batam
+Pelabuhan Putih, Sambu Belakang Padang, Kepulauan Riau
+Pelabuhan ASDP Desa Jagoh, Lingga, Kepulauan Riau
+Pelabuhan ASDP Dompak, Tanjungpinang, Kepulauan Riau
+Pelabuhan ASDP Parit Rempak, Karimun, Kepulauan Riau
+Pelabuhan ASDP Tanjung Uban, Bintan, Kepulauan Riau
+Pelabuhan ASDP Telaga Punggur, Batam, Kepulauan Riau
+Pelabuhan Bakauheni, Lampung
+Pelabuhan Bakong, Lingga, Kepulauan Riau
+Pelabuhan Batam Centre, Batam, Kepulauan Riau
+Pelabuhan Batu Ampar, Batam, Kepulauan Riau
+Pelabuhan Belawan, Sumatera Utara
+Pelabuhan Bengkulu, Bengkulu
+Pelabuhan Bulang Linggi, Bintan, Kepulauan Riau
+Pelabuhan Dabo Singkep, Lingga, Kepulauan Riau
+Pelabuhan Harbour Bay, Batam, Kepulauan Riau
+Pelabuhan Sri Bayintan, Bintan, Kepulauan Riau
+Pelabuhan Kote, Lingga, Kepulauan Riau
+Pelabuhan Krueng Geukueh, Aceh
+Pelabuhan Kuala Langsa, Langsa, Aceh
+Pelabuhan Kuala Tanjung, Batubara, Sumatera Utara
+Pelabuhan Jambi, Jambi
+Pelabuhan Idris Sardi, Muara Sabak
+Pelabuhan Letung Jemaja, Kepulauan Anambas, Kepulauan Riau
+Pelabuhan Malahayati, Aceh Besar
+Pelabuhan Marok Tua, Lingga, Kepulauan Riau
+Pelabuhan Midai, Natuna, Kepulauan Riau
+Pelabuhan Muara, Padang, Sumatera Barat
+Pelabuhan Nongsa, Batam, Kepulauan Riau
+Pelabuhan Pancur, Lingga, Kepulauan Riau
+Pelabuhan Pangkal Balam, Bangka-Belitung
+Pelabuhan Panjang, Lampung
+Pelabuhan Penagih, Natuna, Kepulauan Riau
+Pelabuhan Penuba, Lingga, Kepulauan Riau
+Pelabuhan Pulau Laut, Natuna, Kepulauan Riau
+Pelabuhan Pulau Subi, Natuna, Kepulauan Riau
+Pelabuhan Sei Tenam, Lingga, Kepulauan Riau
+Pelabuhan Senayang, Lingga, Kepulauan Riau
+Pelabuhan Sekupang, Batam, Kepulauan Riau
+Pelabuhan Sijantung, Batam, Kepulauan Riau
+Pelabuhan Sri Bintan Pura, Tanjungpinang, Kepulauan Riau
+Pelabuhan Sri Payung, Tanjungpinang, Kepulauan Riau
+Pelabuhan Sungai Pakning, Dumai, Riau
+Pelabuhan Sungai Buluh, Lingga, Kepulauan Riau
+Pelabuhan Sunggak, Kepulauan Anambas, Kepulauan Riau
+Pelabuhan Yoseph Iskandar, Tapaktuan, Aceh
+Pelabuhan Tanjung Api-api, Palembang, Sumatera Selatan
+Pelabuhan Tanjung Balai, Sumatera Utara
+Pelabuhan Tanjung Balai Karimun, Karimun, Kepulauan Riau
+Pelabuhan Tanjung Buton, Lingga, Kepulauan Riau
+Pelabuhan Tanjung Pandan, Bangka-Belitung
+Pelabuhan Tanjung Setelung Serasan, Natuna, Kepulauan Riau
+Pelabuhan Tarempa, Kepulauan Anambas, Kepulauan Riau
+Pelabuhan Telaga Punggur, Batam, Kepulauan Riau
+Pelabuhan Teluk Bayur, Sumatera Barat
+Banjarmasin, Batu Licin, Satui, Kalimantan Selatan
+Dwikora, Kalimantan Barat
+Palangkaraya, Sampit-Kotim, Kumai-Kobar, Bagendang-Sampit, Kuala Pembuang-Seruyan, Kalimantan Tengah
+Semayang, Balikpapan
+Malundung, Tarakan
+Pelabuhan Trisakti, Banjarmasin
+Pelabuhan Samudera, Batulicin
+TPK Palaran,Samarinda
+Makassar, Sulawesi Selatan
+Tanjung Ringgit, Palopo, Sulawesi Selatan
+Belopa, Sulawesi Selatan
+Malili, Sulawesi Selatan
+Pare Pare, Sulawesi Selatan
+Kendari, Sulawesi tenggara
+Buton, Sulawesi Tenggara
+Bitung, Sulawesi Utara
+Pelabuhan Gorontalo, Gorontalo
+Pelabuhan Anggrek, Kwandang, Gorontalo
+Pelabuhan Pantoloan, Pantoloan, Sulawesi Tengah
+Polewali, Sulawesi Barat
+Barru , Sulawesi Selatan
+Paotere, Makassar
+Pamatata, Selayar
+Pelabuhan penyeberangan Bajoe-Watampone, sulawesi selatan
+Benoa, Bali
+Lembar, Lombok
+Pelabuhan ASDP Kayangan, Lombok
+Kantor Unit Penyelenggara Kelas III Labuhan Lombok
+Pelabuhan Kabupaten Lombok Timur Labuhan Haji, Lombok
+Pelabuhan Kapupaten Lombok Timur Tanjung Luar, Lombok
+Kantor Unit Penyelenggara Pelabuhan Pemenang
+Waingapu, Sumba
+Pelabuhan Tenau, Kupang
+Kabupaten Belu, Kantor Pelabuhan Atapupu
+Kabupaten Timur Tengah Utara, Kantor Pelabuhan Wini
+Kabupaten Flores Timur, Larantuka
+Lorosay,kabupaten sikka,maumere
+Administrasi Pelabuhan Ternate
+Kantor Pelabuhan Buli
+Kantor Pelabuhan Daruba
+Kantor Pelabuhan Sanana
+Kantor Pelabuhan Tobelo
+Kantor Pelabuhan Labuha
+Kantor Pelabuhan Gebe
+Kantor Pelabuhan Jailolo
+Kantor Pelabuhan Soa Sio
+Kantor Pelabuhan Laiwui
+Kantor GOSEX
+Kantor Syahbandar dan Otoritas Pelabuhan Yos Soedarso
+Kantor Syahbandar dan Otoritas Pelabuhan Banda
+Kantor Unit Penyelenggara Pelabuhan Tuhelu
+Kantor Unit Penyelenggara Pelabuhan Wahai
+Kantor Unit Penyelenggara Pelabuhan Waisarisa
+Kantor Unit Penyelenggara Pelabuhan Saumlaki
+Kantor Unit Penyelenggara Pelabuhan Namlea
+Kantor Unit Penyelenggara Pelabuhan Amahai
+Kantor Unit Penyelenggara Pelabuhan Geser
+Kantor Unit Penyelenggara Pelabuhan Leksula
+Kantor Unit Penyelenggara Pelabuhan Tual
+Kantor Unit Penyelenggara Pelabuhan Dobo
+Kantor Unit Penyelenggara Pelabuhan Wonreli
+Administrator Pelabuhan Sorong
+Administrator Pelabuhan Manokwari
+Administrator Pelabuhan Fak-fak
+Kantor Pelabuhan Kaimana
+Kantor Pelabuhan Bintuni
+Kantor Pelabuhan Taminabuan
+Kantor Pelabuhan Wasior
+Pelabuhan Depapre
+Administrasi Pelabuhan Jayapura
+Administrasi Pelabuhan Biak
+Administrasi Pelabuhan Merauke
+Kantor Pelabuhan Nabire
+Kantor Pelabuhan Agats
+Kantor Pelabuhan Pomako
+Kantor Pelabuhan Amahai

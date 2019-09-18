@@ -254,7 +254,7 @@ $(document).ready(function(){
                             )
                         )?>
 
-                        <?php echo $this->Form->input("work_shift_id",
+                        <!-- <?php echo $this->Form->input("work_shift_id",
                             array(
                                 "div"			=>	array("class"=>"form-group"),
                                 "label"			=>	array("class"	=>	"col-md-3 control-label","text"=>__("Work Shift (*)")),
@@ -280,7 +280,7 @@ $(document).ready(function(){
 								"empty"					=>	__("Select Work Shift"),
 								"data-live-search"		=>	"true"
                             )
-                        )?>
+                        )?> -->
 
                     </div>
                 </div>

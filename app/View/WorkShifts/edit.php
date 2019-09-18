@@ -92,79 +92,50 @@ function PreviewImage(fileId,imageId,lighbox) {
                 	<div class="col-md-12">
                     	<?php echo $this->Form->input("name",
                             array(
-                                "div"			=>	array("class"=>"form-group"),
-                                "label"			=>	array("class"	=>	"col-md-3 control-label","text"=>__("Product Name (*)")),
-                                "between"		=>	'<div class="col-md-5">',
-                                "after"			=>	"</div>",
-                                "autocomplete"	=>	"off",
-                                "type"			=>	"text",
-                                "class"			=>	'form-control',
-								'error' 		=>	array(
-									'attributes' => array(
-										'wrap' 	=> 'label',
-										'class' => 'error'
-									)
-								),
-								"format"		=>	array(
-									'before',
-									'label',
-									'between',
-									'input',
-									'error',
-									'after',
-								),
-								'maxLength'		=>	'100',
-								"escape"		=>	false
-                            )
-                        )?>          
-                                                
-                        <?php echo $this->Form->input("price",
-                            array(
-                                "div"				=>	array("class"=>"form-group"),
-                                "label"				=>	array(
-                                                            "class"				=>	"col-md-3 control-label",
-                                                            "text"				=>	__("Price"),
-                                                        ),
-                                "between"			=>	'<div class="col-md-3">',
-                                "after"				=>	'</div>',
-                                "autocomplete"		=>	"off",
-                                "type"				=>	"text",
-                                "class"				=>	'form-control',
-                                'error' 			=>	array(
+                                "div"           =>  array("class"=>"form-group"),
+                                "label"         =>  array("class"   =>  "col-md-3 control-label","text"=>__("Shift Name (*)")),
+                                "between"       =>  '<div class="col-md-5">',
+                                "after"         =>  "</div>",
+                                "autocomplete"  =>  "off",
+                                "type"          =>  "text",
+                                "class"         =>  'form-control',
+                                'error'         =>  array(
                                     'attributes' => array(
-                                        'wrap' 	=> 'label',
+                                        'wrap'  => 'label',
                                         'class' => 'error'
                                     )
                                 ),
-                                "format"		=>	array(
+                                "format"        =>  array(
                                     'before',
                                     'label',
                                     'between',
                                     'input',
-									'error',
-									'after'
+                                    'error',
+                                    'after',
                                 ),
+                                'maxLength'     =>  '100',
+                                "escape"        =>  false
                             )
                         )?>
                         
                         <?php echo $this->Form->input("status",
                             array(
-                                "div"			=>	array("class"=>"form-group"),
-								"before"		=>	'<label class="col-md-3 control-label">Status</label><div class="col-md-5"><label class="check">',
-								"after"			=>	'</label></div>',
-								"separator"		=>	'</label><label class="check">',
-								"label"			=>	false,
-                                "options"		=>	array("1"=>__("Active"),"0"=>__("Not Active")),
-                                "class"			=>	'iradio',
-								'error' 		=>	array(
-									'attributes' => array(
-										'wrap' 	=> 'label',
-										'class' => 'error'
-									)
-								),
-								"type"			=>	"radio",
-								"legend"		=>	false,
-								"default"		=>	"1"
+                                "div"           =>  array("class"=>"form-group"),
+                                "before"        =>  '<label class="col-md-3 control-label">Status</label><div class="col-md-5"><label class="check">',
+                                "after"         =>  '</label></div>',
+                                "separator"     =>  '</label><label class="check">',
+                                "label"         =>  false,
+                                "options"       =>  array("1"=>__("Active"),"0"=>__("Not Active")),
+                                "class"         =>  'iradio',
+                                'error'         =>  array(
+                                    'attributes' => array(
+                                        'wrap'  => 'label',
+                                        'class' => 'error'
+                                    )
+                                ),
+                                "type"          =>  "radio",
+                                "legend"        =>  false,
+                                "default"       =>  "1"
                             )
                         )?>
                     </div>

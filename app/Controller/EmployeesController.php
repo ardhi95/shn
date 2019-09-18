@@ -78,7 +78,7 @@ class EmployeesController extends AppController
 									"alias"			=>	"WorkShift",
 									'type'			 => 'LEFT',
 									"conditions"	=>	array(
-										"{$this->ModelName}.work_unit_id = WorkShift.id"
+										"{$this->ModelName}.work_shift_id = WorkShift.id"
 									)
 								)
 							);
@@ -171,8 +171,8 @@ class EmployeesController extends AppController
 										   "joins"			=>	$joins,
 										   "fields"			=>	array(
 										   		"Employee.*",
-										   		"WorkUnit.name",
-										   		"WorkShift.name"
+										   		"WorkShift.*",
+										   		"WorkUnit.*"
 										   ),
 										   'limit' 			=>	$viewpage,
                                            "maxLimit"       =>  1000
@@ -202,6 +202,8 @@ class EmployeesController extends AppController
 			$data        		= $this->paginate("{$this->ModelName}", $merge_cond);
     	}
 		$this->Session->write('Search.' . $this->ControllerName . 'Conditions', $merge_cond);
+
+		pr($data);
 
 		$this->set(compact(
 			'data',
@@ -247,7 +249,7 @@ class EmployeesController extends AppController
 									"alias"			=>	"WorkShift",
 									'type'			 => 'LEFT',
 									"conditions"	=>	array(
-										"{$this->ModelName}.work_unit_id = WorkShift.id"
+										"{$this->ModelName}.work_shift_id = WorkShift.id"
 									)
 								)
 							);
@@ -288,6 +290,93 @@ class EmployeesController extends AppController
 		
 		if(!empty($this->request->data))
 		{
+			// ===== Set Rule ===== //
+			$this->loadModel("Employee");
+			$get_gender		=	$this->request->data['Employee']['gender'];
+			$get_age 		=	(int)$this->request->data['Employee']['age'];
+			$get_distance	=	(int)$this->request->data['Employee']['house'];
+			$get_unit		=	$this->request->data['Employee']['work_unit_id'];
+			$get_health 	=	$this->request->data['Employee']['health_record'];
+
+			if ($get_age <= (int)"29") {
+				if ($get_gender == "m") {
+					if ($get_health == "g") {
+						// 4 = U-Quality, 5 = U-Produksi, 6 = U-Proses, 11= U-Keamanan
+						if (($get_unit == "4") || ($get_unit == "5") || ($get_unit == "6") || ($get_unit == "11") ) {
+							$this->request->data['Employee']['work_shift_id'] 	=	"2"; // Shift Malam
+						} else {
+							$this->request->data['Employee']['work_shift_id'] 	=	"1"; // Shift Siang
+						}
+					} else { 
+						$this->request->data['Employee']['work_shift_id'] 	=	"1"; // Shift Siang
+					}
+				} else {
+					$this->request->data['Employee']['work_shift_id'] 	=	"1"; // Shift Siang
+				}
+			} else {
+				$this->request->data['Employee']['work_shift_id'] 	=	"1"; // Shift Siang
+			}
+			// if ($get_gender == "m") {
+			// 	if ($get_age > (int)"35.5") {
+			// 		$this->request->data['Employee']['work_shift_id'] 	=	"1"; // Shift Siang
+			// 	} else if ($get_age <= (int)"35.5") {
+			// 		if ($get_distance > (int)"3.5") {
+			// 			$this->request->data['Employee']['work_shift_id'] 	=	"1"; // Shift Siang
+			// 		} else if ($get_distance <= (int)"3.5") {
+			// 			// HRD
+			// 			if ($get_unit == "10") {
+			// 				if ($this->Employee->getCountWorkUnit($get_unit, "1") <= (int)"2") {
+			// 					$this->request->data['Employee']['work_shift_id'] 	=	"1"; // Shift Siang
+			// 				} else {
+			// 					$this->request->data['Employee']['work_shift_id'] 	=	"2"; // Shift Malam
+			// 				}
+			// 			} else if ($get_unit == "11") {
+			// 				if ($this->Employee->getCountWorkUnit($get_unit, "2") <= (int)"2") {
+			// 					$this->request->data['Employee']['work_shift_id'] 	=	"2"; // Shift Siang
+			// 				} else {
+			// 					$this->request->data['Employee']['work_shift_id'] 	=	"1"; // Shift Malam
+			// 				}
+			// 			} else if ($get_unit == "8") {
+			// 				if ($this->Employee->getCountWorkUnit($get_unit, "1") <= (int)"3") {
+			// 					$this->request->data['Employee']['work_shift_id'] 	=	"1"; // Shift Siang
+			// 				} else {
+			// 					$this->request->data['Employee']['work_shift_id'] 	=	"2"; // Shift Malam
+			// 				}
+			// 			} else if ($get_unit == "5") {
+			// 				if ($this->Employee->getCountWorkUnit($get_unit, "1") <= (int)"8") {
+			// 					$this->request->data['Employee']['work_shift_id'] 	=	"1"; // Shift Siang
+			// 				} else {
+			// 					$this->request->data['Employee']['work_shift_id'] 	=	"2"; // Shift Malam
+			// 				}
+			// 			} else if ($get_unit == "6") {
+			// 				if ($this->Employee->getCountWorkUnit($get_unit, "1") <= (int)"2") {
+			// 					$this->request->data['Employee']['work_shift_id'] 	=	"1"; // Shift Siang
+			// 				} else {
+			// 					$this->request->data['Employee']['work_shift_id'] 	=	"2"; // Shift Malam
+			// 				}
+			// 			} else if ($get_unit == "4") {
+			// 				if ($this->Employee->getCountWorkUnit($get_unit, "1") <= (int)"4") {
+			// 					$this->request->data['Employee']['work_shift_id'] 	=	"1"; // Shift Siang
+			// 				} else {
+			// 					$this->request->data['Employee']['work_shift_id'] 	=	"2"; // Shift Malam
+			// 				}
+			// 			} else if ($get_unit == "2") {
+			// 				if ($this->Employee->getCountWorkUnit($get_unit, "1") <= (int)"9") {
+			// 					$this->request->data['Employee']['work_shift_id'] 	=	"1"; // Shift Siang
+			// 				} else {
+			// 					$this->request->data['Employee']['work_shift_id'] 	=	"2"; // Shift Malam
+			// 				}
+			// 			} else {
+			// 				$this->request->data['Employee']['work_shift_id'] 	=	"1"; // Shift Siang
+			// 			}
+
+			// 		}
+			// 	}
+			// } else {
+			// 	$this->request->data['Employee']['work_shift_id'] 	=	"1"; // Shift Siang
+			// }
+			// ===== Set Rule ===== //
+
 			$this->{$this->ModelName}->set($this->request->data);
 			$this->{$this->ModelName}->ValidateData();
 			

@@ -45,6 +45,17 @@ class Employee extends AppModel
 		$Schedule		=	ClassRegistry::Init("Schedule");
 		$Schedule->deleteAll(array("store_id" => $this->id),true,true);*/
 	}
+
+	function getCountWorkUnit($workUnitId, $workShiftId)
+	{
+		$get =	$this->find('count', array(
+				'conditions' => array(
+					'Employee.work_unit_id' => $workUnitId,
+					'Employee.work_shift_id' => $workShiftId,
+				)
+			));
+		return $get;
+	}
 	
 	function ValidateData()
 	{
@@ -74,7 +85,7 @@ class Employee extends AppModel
 			        'message' => 'Numbers only'
 			    ),
 			    'maxLength' => array(
-					'rule' => array("maxLength",3),
+					'rule' => array("maxLength",2),
 					'message' => __d('validation',"Age is too old")
 				)
 			),
@@ -99,15 +110,15 @@ class Employee extends AppModel
 			'house' =>	array(
 				'notBlank'	=>	array(
 					'rule'	=>	"notBlank",
-					'message' => __d('validation',"Please select gender")
+					'message' => __d('validation',"Please insert distance from home")
 				),
 				'numeric' => array(
 			        'rule' => 'numeric',
 			        'message' => 'Numbers only'
 			    ),
 			    'maxLength' => array(
-					'rule' => array("maxLength",3),
-					'message' => __d('validation',"The house is too far away")
+					'rule' => array("maxLength",2),
+					'message' => __d('validation',"The distance is too far")
 				)
 			),
 			'work_unit_id' =>	array(
